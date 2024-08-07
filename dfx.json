@@ -1,7 +1,7 @@
 {
   "canisters": {
     "backend": {
-      "main": "src/battlechan_backend/main.mo",
+      "main": "src/backend/main.mo",
       "type": "motoko"
     },
     "battlechan_frontend": {
@@ -9,10 +9,10 @@
         "backend"
       ],
       "source": [
-        "src/battlechan_frontend/dist"
+        "src/frontend/dist"
       ],
       "type": "assets",
-      "workspace": "battlechan_frontend"
+      "workspace": "frontend"
     },
     "ledger": {
       "type": "custom",
